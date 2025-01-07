@@ -120,7 +120,7 @@ export HISTFILE=/dc/shellhistory/.zsh_history
 export PROMPT_COMMAND='history -a'
 sudo chown -R vscode /dc/shellhistory
 source <(fzf --zsh)
-source ~/powerlevel10k/powerlevel10k.zsh-theme
+source ~/.oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
